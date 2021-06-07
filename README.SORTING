@@ -1,0 +1,12 @@
+Shihab Islam
+4/27/2021
+Homework #5
+
+Q1)
+	This question was for me to implement a boolean expression called verifyOrder. I believe I was able to implement an if statement which takes the comparator parameter and returns true or false whether the vector is sorted at all. which allows us to use less<int> and greater <int> later to check for the proper format for the vector. Every simple process was able to achieve this with no problems. I was able to make it output the correct values for the final subbmission. Then was able to properly implement the generating functions for vectors. GenerateRandomVector and generateSortedvector is able to iterate through the vector and return a random one or a dorted one through the sort function. then came the hardest part of the assignment which was to implement other sorting algorithms.First I had to figure out how Comparators actually work through the textbook or some basic google searching, then I was  able to write it simply to call back the other functions based on parameters. 
+
+
+Q2)
+	The next step was to implement 2 new quicksort pivot functions. Initally I thought each pivot should get its own quicksort function that points at the correct left and right parameter, which are the indexes of the vector. But then that wasn't necessary b/c instead we can take the same quicksort function and change the the amth for variables and have the parameter take in a different pivot, to properly call it that way.
+
+	 
